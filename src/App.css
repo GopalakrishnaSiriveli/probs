@@ -3,25 +3,45 @@
 }
 
 .App-header {
-  background-color: #101113;
-  min-height: 10vh;
+  background-color:wheat;
+  min-height: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 main {
-  padding: 20px;
+  padding: 10px;
 }
 
 select {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   cursor: pointer;
-  height:30px;
-  width:120px;
+  height:40px;
+  width:100px;
   user-select: auto;
 
+}
+.heading{
+  color:black;
+  background-color: azure;
+  padding:10px;
+  border-radius:10px;
+}
+.time{
+  background-color: black;
+  color:whitesmoke;
+  border-radius: 8px;
+  padding:5px;
+}
+.frame{
+  height:50px;
+  width:100px;
+  color:white;
+  background-color:black;
+  border-radius:10px;
+  font-size:20px;
 }

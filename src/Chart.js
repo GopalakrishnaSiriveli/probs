@@ -3,6 +3,8 @@ import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Brush
 } from 'recharts';
 
+import './App.css';
+
 const Chart = () => {
   const [data, setData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
@@ -40,10 +42,10 @@ const Chart = () => {
 
   return (
     <div>
-      <select onChange={handleTimeframeChange} value={timeframe}>
-        <option value="daily">Daily</option>
-        <option value="weekly">Weekly</option>
-        <option value="monthly">Monthly</option>
+      <select onChange={handleTimeframeChange}  className='frame' value={timeframe}>
+        <option  className='time' value="daily">Daily</option>
+        <option className='time' value="weekly">Weekly</option>
+        <option className='time' value="monthly">Monthly</option>
       </select>
 
       <div ref={chartRef}>

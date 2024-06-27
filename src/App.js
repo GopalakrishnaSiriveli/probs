@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Charting Application</h1>
+        <h1 className='heading'>Charting Library Application</h1>
       </header>
       <main>
         <Chart />
